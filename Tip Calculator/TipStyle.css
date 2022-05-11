@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(255, 213, 158);
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+div{
+    border: 2px solid darkgrey;
+    border-radius: 20px;
+    background-color: rgb(255, 248, 146);
+    min-height: 50px;
+    width: 280px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#directions{
+    padding: 15px;
+    width: 280px;
+}
+#input{
+    margin: 10px 20px;
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+    border: 4px outset lightblue;
+    text-align: center;
+    font-size: 1.2em;
+}
+button{
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 120px;
+    background-color: rgb(204, 72, 72);
+    box-shadow: 10px 10px 5px darkgrey;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 3px 3px 3px darkgrey;
+}
+select{
+    font-size: 1.2em;
+    border: 6px solid black;
+    margin: 5px 15px;
+    width: 300px;
+}

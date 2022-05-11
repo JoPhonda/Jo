@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--“On my honor as a student, I have neither given nor received any unauthorized aid on this assignment.”-->
+<!--Joseph Kim 7th Period Programming-->
+<html>
+    <head>
+        <title>Guess The Number</title>
+    </head>
+    <body>
+            <script>
+                //this code will prompt you to guess a random number, then tell you if it's right or not.
+                let maximum = 100;
+                let compNum = Math.floor(Math.random()*maximum)+1;
+                let stillPlaying = true;
+                while(stillPlaying)
+                {
+                    let userGuess = prompt("Guess the number between 1-100.");
+                    userGuess = parseInt(userGuess);
+                    if (userGuess > 100 || userGuess < 1){
+                        alert("Out of range.")
+                    }
+                    else if (userGuess < compNum){
+                        alert("Too low, try again.")
+                    }
+                    else if (userGuess > compNum){
+                        alert("Too high, try again.")
+                    }
+                    else if (userGuess === compNum){
+                        alert("You got it!")
+                        stillPlaying = false;
+                    }
+                }
+            </script>
+    </body>
+</html>

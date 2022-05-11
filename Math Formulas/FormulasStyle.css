@@ -1,0 +1,9 @@
+body{
+    background-color: lightsteelblue;
+}
+select {
+    font-size: 1.2em;
+    width: 250px;
+    margin: 10px;
+    border: 5px solid black;
+}
