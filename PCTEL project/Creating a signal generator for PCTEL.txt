@@ -1,0 +1,8 @@
+The code in this folder was created
+by Joseph Kim, John Kim, Allen Guo, and Alvin Guo
+from June 27th to July 1st.
+The purpose of this code is to:
+go through power outputs from a signal generator,
+print out the values into the terminal, and 
+display a graph that includes all of the values
+within parameters that are inputed manually.
